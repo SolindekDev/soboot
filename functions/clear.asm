@@ -6,7 +6,7 @@ clear_screen:
 
     mov ah, 6           ; Scroll full-screen
     mov al, 0           ; Normal white on black
-    mov bh, 7           ;
+    mov bh, 7           ; Fontcolor
     mov cx, 0           ; Top-left
     mov dh, 24          ; Bottom-right
     mov dl, 79
